@@ -15,7 +15,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"
-        skin:enable="true">
+        skin:enable="false">
         <!--给CardView设置背景色应该使用cardBackgroundColor，直接使用background就会没有圆角效果，这里简单起见就没做处理了-->
         <RelativeLayout
             android:layout_width="match_parent"
